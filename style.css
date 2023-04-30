@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@400;600&display=swap');
+
+.wrapper {
+    /* display: flex;
+     align-items: center;
+     justify-content: center; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+    background-color: #191a1d;
+    margin: 0;
+}
+
+h1 {
+    color: #f6f5ff;
+    font-family: Quicksand;
+}
+
+p {
+    color: rgb(212, 212, 212);
+    font-family: Poppins;
+    font-weight: 200;
+}
+
+h1,
+p {
+    width: 460px;
+}
+
+.name {
+    background-image: linear-gradient(to right, #dd5e89, #f7bb97);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    left: 20%;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 25px 5px rgb(14, 14, 14);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+img:hover {
+    transition: .3s ease;
+    scale: 1.1;
+    box-shadow: 0px 0px 10px -4px rgb(14, 14, 14);
+    transform: rotate(-2deg);
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 1.0);
+}
+
+img:not(:hover) {
+    transition: .4s ease;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    min-height: 75px;
+    box-shadow: 0px 0px 10px rgb(15, 15, 15);
+}
+
+h2 {
+    font-family: Quicksand;
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.navbar-name {
+    font-family: Quicksand;
+    color: #dd5e89;
+    font-weight: bold;
+}
+
+.title {
+    margin-left: 30px;
+}
+.title, .timeandstuff {
+    display: inline-block;
+}
+.timeandstuff {
+  position: relative;
+  float: right;
+  margin-right: 30px;
+}
